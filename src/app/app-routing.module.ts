@@ -9,12 +9,19 @@ const routes: Routes = [
     component: LayoutComponent,
     children: [
       {
-        path: 'dashboard',
+        path: 'editor',
         loadChildren: () =>
           import('./pages/dashboard/dashboard.module').then(
             (m) => m.DashboardModule
           ),
       },
+      // {
+      //   path: 'editor',
+      //   loadChildren: () =>
+      //     import('./pages/editor/editor.module').then(
+      //       (m) => m.EditorModule
+      //     ),
+      // },
       {
         path: 'about',
         loadChildren: () =>

@@ -9,6 +9,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 const MODULES = [
   LayoutModule,
@@ -20,6 +21,7 @@ const MODULES = [
   MatMenuModule,
   MatSidenavModule,
   MatToolbarModule,
+  MatExpansionModule,
 ];
 
 @NgModule({

@@ -16,5 +16,17 @@ export class LayoutComponent {
       shareReplay()
     );
 
+  hidden: boolean = true;
+
   constructor(private breakpointObserver: BreakpointObserver) {}
+
+  setHidden() {
+    console.log('sethidden');
+    if(!this.hidden) {
+      this.hidden = true;
+    } else {
+      this.hidden = false;    }
+    // this.hidden != this.hidden;
+  }
+
 }

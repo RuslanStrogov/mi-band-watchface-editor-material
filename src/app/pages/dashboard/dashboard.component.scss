@@ -1,21 +1,50 @@
 .grid-container {
-  margin: 20px;
+    margin: 20px;
 }
 
 .dashboard-card {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
 }
 
 .more-button {
-  position: absolute;
-  top: 5px;
-  right: 10px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
 }
 
 .dashboard-card-content {
-  text-align: center;
+    // text-align: center;
+}
+
+.canvas-card {
+    background: #dddddd;
+    box-shadow: inset 0 10px 20px #00000030;
+    padding: 0;
+    overflow: hidden;
+    .mat-card-content {
+        // display: flex;
+    }
+    watch-canvas {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+app-watch-layers {
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+     ::ng-deep {
+        .mat-accordion {
+            position: relative;
+            top: 10px;
+        }
+    }
 }

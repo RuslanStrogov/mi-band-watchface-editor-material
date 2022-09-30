@@ -1,0 +1,15 @@
+<section class="control-buttons">
+
+    <div class="zoom-indicator">{{ zoom | number : '1.2-2' }}x</div>
+
+    <button mat-button (click)="zoomIn()">
+      <mat-icon>zoom_in</mat-icon>
+    </button>
+    <button mat-button (click)="zoomOut()">
+      <mat-icon>zoom_out</mat-icon>
+    </button>
+</section>
+
+<canvas [style.width.px]="zoom * width" [style.height.px]="zoom * height"></canvas>
+<!-- [style.left.px]="50% - (zoom * width / 2)"
+[style.top.px]="zoom * height / 2" -->
