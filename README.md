@@ -1,8 +1,10 @@
 <div align="center">
-  <h1>angular-material-starter</h1>
-  <p>Angular Starter with Angular Material.</p>
-  <img src="https://github.com/angular-starters.png" title="angular-starters" alt="angular-starters logo">
+  <h1>mi-band-watchface-editor-material</h1>
+  <p>Angular Mi Band Watchface Editor</p>
+  <img src="https://github.com/RuslanStrogov/mi-band-watchface-editor-material/blob/main/screen.jpg?raw=true">
 </div>
+
+
 
 ## Getting started
 
